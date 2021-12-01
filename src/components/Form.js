@@ -14,7 +14,7 @@ function Form() {
         <Input placeholder="Last name" />
       </FormControl>
       <FormControl  mt={4}>
-      <Button colorScheme="blue" mr={3}>
+      <Button colorScheme="red" mr={3}>
         Save
       </Button>
       </FormControl>

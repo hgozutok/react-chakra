@@ -36,7 +36,7 @@ const NavLink = ({ children }) => (
       bg: useColorModeValue('gray.700', 'gray.700'),
      
     }}
-    href={'#'}>
+    href={'/'}>
     {children}
   </Link>
 );

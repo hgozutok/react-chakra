@@ -12,10 +12,9 @@ import {
   } from '@chakra-ui/react';
 import AppBarChakra from '../components/Layouts/AppBarChakra';
   
-  export default function Login() {
+  export default function LoginPage() {
     return (
       <Stack minH={'100vh'} direction={{ base: 'column', md: 'row' }}>
-          <AppBarChakra/>
         <Flex p={8} flex={1} align={'center'} justify={'center'}>
           <Stack spacing={4} w={'full'} maxW={'md'}>
             <Heading fontSize={'2xl'}>Sign in to your account</Heading>
