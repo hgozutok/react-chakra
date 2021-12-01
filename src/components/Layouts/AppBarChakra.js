@@ -20,7 +20,7 @@ import {
 import * as Icons from '@chakra-ui/icons';
 import Toggle from '../Toggle';
 import *as RIcons from 'react-icons/fa';
-
+import { Logo } from './Footer';
 
 const Links = ['Dashboard', 'Projects', 'Team'];
 
@@ -56,7 +56,7 @@ export default function AppBarChakra() {
             onClick={isOpen ? onClose : onOpen}
           />
           <HStack spacing={8} alignItems={'center'}>
-            <Box>Logo</Box>
+            <Box><Logo color='white'/></Box>
             <HStack
               as={'nav'}
               spacing={4}

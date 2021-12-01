@@ -1,4 +1,5 @@
 import React from 'react'
+import GetUsers from '../DataParts/GetUsers'
 
 import Form from '../Form'
 import AppBarChakra from './AppBarChakra'
@@ -10,6 +11,7 @@ function Layout() {
         <div>
             <AppBarChakra/>
             <Form/>
+            <GetUsers/>
    <Footer/>
         </div>
     )
