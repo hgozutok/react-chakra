@@ -11,7 +11,7 @@ import {
   } from '@chakra-ui/react';
   import { ReactNode } from 'react';
   
-  const Logo = (props) => {
+  export const Logo = (props) => {
     return (
       <svg
         height={32}
@@ -108,7 +108,7 @@ import {
             <Logo />
           </Flex>
           <Text pt={6} fontSize={'sm'} textAlign={'center'}>
-            © 2020 Chakra Templates. All rights reserved
+            © 2020 HUGO. All rights reserved
           </Text>
         </Box>
       </Box>
